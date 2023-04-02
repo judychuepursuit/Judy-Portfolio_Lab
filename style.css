@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family');
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 1.1em;
+    background-color: black;
+    color: white
+}
+a{
+    display: flex;
+    justify-content: end;
+}
+h1{font-family: Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(68, 159, 228);
+}
+
+.upper-box{
+
+}
+
+img{
+    width: 500px;
+    margin-top: 10px;
+}

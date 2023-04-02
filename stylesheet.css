@@ -1,0 +1,58 @@
+
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1ebf7;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+.artwork-images {
+    width: 400px;
+    cursor: pointer;
+}
+
+.bio-par {
+    width: 55%;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Time New roman', serif;
+    font-style: normal;
+}
+
+.bio-image {
+   width: 200px;
+   margin-top: 10px;
+}
+
+.contact-info {
+    width: 72%;
+    flex-direction: row;
+    display: flex;
+    align-items: justify;
+    justify-content: left;
+}
+
+.list{
+    width: 72%;
+    flex-direction: row;
+    display: flex;
+    align-items: justify;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.bio-title {
+    margin-top: 5px;
+}
+
+.image-carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
