@@ -31,11 +31,12 @@ h1 {
 }
 
 .contact-info {
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     display: flex;
     padding-left: 300px;
     padding-top: 100px;
+    text-align: center;
     align-items: centered;
     /* justify-content: left; */
 }
