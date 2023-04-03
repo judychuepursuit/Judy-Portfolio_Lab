@@ -31,11 +31,13 @@ h1 {
 }
 
 .contact-info {
-    width: 72%;
-    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
     display: flex;
-    align-items: justify;
-    justify-content: left;
+    padding-left: 300px;
+    padding-top: 100px;
+    align-items: centered;
+    /* justify-content: left; */
 }
 
 .list{

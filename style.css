@@ -1,27 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
 
 body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 1.1em;
+    font-family: Sofia Sans, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    /* padding: 16px; */
     background-color: black;
     color: white
 }
+/* 
+upper-box nav ul {
+    padding: 0;
+  }
+  
+  upper-box nav li {
+    display: inline-block;
+  } */
+  
+  upper-box nav li a {
+    color: #f3fcf0;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+about-me  li a:hover {
+    color: #ffd23f;
+    border-bottom: 2px dotted #ffd23f;
+  }
+
 a{
     display: flex;
     justify-content: end;
 }
-h1{font-family: Impact, 'Arial Narrow Bold', sans-serif;
+h1{font-family: Comic Neue, cursive;
 color: rgb(68, 159, 228);
+font-size: 4.5em;
+}
+
+li {
+    list-style: none;
+}
+
+.page-container {
+    padding: 16px;
+    width: 75%;
 }
 
 .upper-box{
+    align-items: center;
+    /* background-color: rgb(170, 190, 245); */
+    /* background-color: gainsboro; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 16px; */
+}
 
+.middle-box{
+}
+
+.lower-box{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    color: rgb(68, 159, 228);
 }
 
 img{
-    width: 500px;
+    width: 600px;
     margin-top: 10px;
 }
+
+footer {
+    background: #0417a7;
+    color: #f3fcf0;
+    font-size: 14px;
+    align-self: center;
+    /* display: grid; */
+    grid-template-columns: 100%;
+    padding: 35px;
+  }
+
