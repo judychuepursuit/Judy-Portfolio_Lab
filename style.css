@@ -6,33 +6,37 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Sofia Sans, sans-serif;
-    font-weight: lighter;
-    font-size: 1em;
+    /* font-weight: lighter;
+    font-size: 1em; */
+    background-image: url(images/pexels-photo-110854.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     /* padding: 16px; */
-    background-color: black;
+    /* background-color: black; */
     color: white
 }
 
-.about-me  li a:hover {
-    color: #ffd23f;
-    border-bottom: 2px dotted #ffd23f;
-  }
+
 
 a{
     /* display: flex;
     justify-content: end; */
     color: white;
+    font-size: large;
+    font-weight: 400;
 }
 
 a:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: rgb(238, 145, 22);
+    color: rgb(227, 112, 218);
 }
 
 h1{
     font-family: Comic Neue, cursive;
     /* color: rgb(68, 159, 228); */
+    padding-top: 3%;
+    padding-bottom: 4%;
     font-size: 5.5em;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -63,56 +67,80 @@ li {
     flex-direction: column;
     justify-content: center;
     /* padding: 16px; */
+    font-size: large;
+    line-height: 150%;
 }
+
+.search{
+    padding-top: 5%;
+
+}
+/* 
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  } */
 
 .middle-box{
     align-items: center; 
     display: flex;
-    padding-left: 16px;
+    padding-left: 66px;
+    padding-top: 3%;
+    width: 35%;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    width: 80%;
 }
 
 .description{
     font-weight: normal;
+    padding: 40px;
+
 }
 
 .lower-box{
     align-items: center;
     display: grid;
     grid-template-columns: 70% 30%;
-    color: rgb(68, 159, 228);
+    /* color: rgb(68, 159, 228); */
 }
 
 img{
     width: 850px;
-    margin-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 5%;
 }
 
 footer {
     background: #0417a7;
     color: white 
     /* display flex; */
-    /* this doent appear to be working? */
+    /* this doesnt appear to be working? */
   }
 
 .list {
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 110px;
     /* justify-content: center; */
-    padding: 16px;
+    padding: 40px;
     text-align: center;
     font-family: Sofia Sans, sans-serif;
-    font-size: smaller;
+    font-size: medium;
     font-weight: 100;
+
 }
 
 /* doesn't appear to be working? */
 @media screen and (max-width: 600px) {
-    .topnav a {
+    .page-container {
       float: none;
       width: 100%;
     }
