@@ -42,13 +42,22 @@ h1 {
 }
 
 .list{
-    width: 72%;
-    flex-direction: row;
+    width: 82%;
+    padding: 40px;
+    flex-direction: column;
     display: flex;
     align-items: justify;
-    justify-content: left;
+    justify-content: left; 
     list-style-type: none;
+} 
+
+em {
+    font-size: 12px;
 }
+
+/* .infoLinks{
+    font-size: xx-small;
+} */
 
 .bio-title {
     margin-top: 5px;
